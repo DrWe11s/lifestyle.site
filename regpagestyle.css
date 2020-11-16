@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+input, textarea{
+	outline: none;
+	border: none;
+}
+
+.container-signup{
+	width: 100%;
+	display: flex;
+}
+
+.audio{
+	position: fixed;
+	bottom: 0;
+}
+
+.signup-more{
+	width: calc(100% - 350px);
+	position: relative;
+	background-image: url(regback.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.wrap-signup{
+	width: 350px;
+	background: #fff;
+	border-radius: 2px;
+	position: relative;
+	padding: 36px 50px 0 50px;
+}
+
+.signup-form{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.signup-title{
+	display: block;
+	width: 100%;
+	font-size: 25px;
+	font-weight: 900;
+	color: #333;
+	text-align: left;
+	padding-bottom: 19px;
+}
+
+.wrap-input{
+	width: 100%;
+	position: relative;
+	border-bottom: 2px solid #dbdbdbdb;
+	margin-bottom: 22.5px;
+}
+
+.label-input{
+	font-size: 15px;
+	font-weight: 600;
+	color: #999;
+	padding-left: 2px;
+}
+
+.input{
+	display: block;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	font-size: 18px;
+	color: #555;
+	padding: 0 2px;
+}
+
+.focus-input{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+.input: focus{
+	width: 100%;
+}
+
+.container-terms{
+	width:100%;
+	display: flex;
+	align-items: center;
+	padding-bottom: 22px;
+	cursor: pointer;
+}
+
+.input-checkbox{
+	margin-right: 10px;
+}
+
+.label-checbox{
+	margin: 0;
+	display: block;
+	position: relative;
+	padding-left: 26px;
+	cursor: pointer;
+}
+
+.txt1 .txt2{
+	font-size: 15px;
+	color: #999;
+	line-height: 1.2;
+}
+
+.txt2{
+	color: #666;
+}
+
+.hov1: hover{
+	color: #c87ef0;
+}
+
+.container-signup-form-btn{
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wrap-signup-form-btn{
+	display: block;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.signup-form-btn{
+	width: 245px;
+	height: 40px;
+	padding: 0 30px;
+	background: #770b7b;
+	border-radius: 25px;
+	font-size: 16px;
+	color: #fff;
+}
+

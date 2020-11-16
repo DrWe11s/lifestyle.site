@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-color: rgb(241,243,244);
+}
+
+.register{
+	margin-left: 70px;
+}
+
+.register a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding-top: 5px;
+	font-size: 50px;
+}
+
+.container-header{
+	position: fixed;
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #770b7b;
+	z-index: 11;
+}
+
+.header-logo{
+	width: 200px;
+	background-image: url(logo2.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #770b7b;
+}
+
+.header-navbar{
+	background: #fff;
+	border-radius: 2px;
+	position: relative;
+	padding: 15px 0 0 0;
+	background-color: #770b7b;
+}
+
+ul{
+	margin-left: 140px;
+	margin-right: 110px;
+}
+
+ul li{
+	display: inline-block;
+	list-style: none;
+	width: 130px;
+	text-align: center;
+	margin: 0 30px 0 30px;
+}
+
+.active{
+	background-color: rgb(241,243,244);
+	border-radius: 25px;
+}
+
+.active a{
+	color: #770b7b;
+}
+
+ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	color: rgb(241,243,244);
+	margin: 10px 0;
+}
+
+.audio{
+	z-index: 12;
+	bottom: 0;
+	position: fixed;
+}
+
+audio{
+	width: 200px;
+}
+
+.container-body{
+	padding-top: 100px;
+	background-image: url(bg2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container{
+	margin-left: 250px;
+	width: 800px;
+}
+
+.main-body-paragraph{
+	display: flex;
+	margin-top: 20px;
+	width: 800px;
+}
+
+.first-body-paragraph{
+	display: flex;
+	margin-top: 20px;
+	width: 800px;
+}
+
+.text-main{
+	font-size: 13px;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+	padding: 10px;
+	background: rgb(241,243,244);
+	color: #32b7cb;
+}
+
+.image-first{
+	width: calc(100% - 400px);
+	position: relative;
+	background-image: url(health.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+}
+
+.text{
+	width: 480px;
+	font-size: 13px;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+	padding: 10px;
+	background: rgb(241,243,244);
+	color: #32b7cb;
+	margin-left: 20px;
+	text-align: right;
+}
+
+.second-body-paragraph{
+	display: flex;
+	margin-top: 50px;
+}
+
+
+.image-second{
+	width: calc(100% - 380px);
+	position: relative;
+	background-image: url(friends.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+}
+
+.text2{
+	width: 480px;
+	font-size: 13px;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+	padding: 10px;
+	background: rgb(241,243,244);
+	color: #32b7cb;
+	margin-right: 20px;
+}
+
+.third-body-paragraph{
+	display: flex;
+	margin-top: 20px;
+}
+
+
+.image-third{
+	width: calc(100% - 380px);
+	position: relative;
+	background-image: url(problem.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+}
+
+.text3{
+	width: 480px;
+	font-size: 13px;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+	padding: 10px;
+	background: rgb(241,243,244);
+	color: #32b7cb;
+	margin-right: 20px;
+}
+
+.fourth-body-paragraph{
+	display: flex;
+	margin-top: 20px;
+	width: 800px;
+}
+
+.image-fourst{
+	width: calc(100% - 400px);
+	position: relative;
+	background-image: url(values.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+}
+
+.text4{
+	width: 480px;
+	font-size: 13px;
+	border-radius: 10px;
+	border: 2px solid #770b7b;
+	padding: 10px;
+	background: rgb(241,243,244);
+	color: #32b7cb;
+	margin-left: 20px;
+	text-align: right;
+}
+
+.center{
+	margin: 0 5%;
+}
+
+.texts {
+  padding: 2px 16px;
+}
+
+.footer{
+	margin-top: 50px;
+	background-color: #770b7b;
+	color: white;
+	padding-left: 250px;
+	padding-top: 50px;
+	height: 150px;
+	font-size: 20px;
+	display: flex;
+}
+
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+
+.footer table{
+	border-spacing: 10px;
+	border-collapse: separate;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!--Comment-->
+<html> <!--Comment-->
+<head> <!--Comment-->
+	<meta charset="utf-8"><!--Comment-->
+	<title>Lifestyle</title> <!--Comment-->
+	<link rel="stylesheet" href="regpagestyle.css"><!--Comment-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body> <!--Comment-->
+	<div class="container-signup">
+		<div class="signup-more"></div>
+		<div class="audio" style="position: absolute;">
+			<audio src="music.mp3" controls></audio>
+		</div>
+			<div class="wrap-signup">
+				<form action="main.html" method="POST">
+					<span class="signup-title">
+							SignUp
+					</span>
+
+					<div class="wrap-input">
+						<span class="label-input">Full Name</span>
+						<input class="input" type="text" name="name" placeholder="Name..." required>
+						<span class="focus-input"></span>
+					</div>
+
+					<div class="wrap-input">
+						<span class="label-input">Email</span>
+						<input class="input" type="email" name="email" placeholder="Email Address..." pattern=".+@gmail.com" required>
+						<span class="focus-input"></span>
+					</div>
+
+	        <div class="wrap-input">
+						<span class="label-input">Username</span>
+						<input class="input" type="text" name="username" placeholder="Username..." required>
+						<span class="focus-input"></span>
+					</div>
+
+					<div class="wrap-input">
+						<span class="label-input">Password</span>
+						<input class="input" type="password" name="pass" placeholder="********" required>
+						<span class="focus-input"></span>
+					</div>
+
+					<div class="wrap-input">
+						<span class="label-input">Repeat Password</span>
+						<input class="input" type="password" name="rep-pass" placeholder="********" required>
+						<span class="focus-input"></span>
+					</div>
+
+					<div class="container-terms">
+						<input class="input-checkbox" id="ckb1" type="checkbox" name="remember-me" required>
+						<label class="label-checkbox" for="ckb1" style="cursor: pointer;">
+							<span class="txt1">I agree to the
+							<a class="txt2 hov1" href="#">Terms of Users</a>
+						</span>
+						</label>
+					</div>
+					<div class="container-signup-form-btn">
+						<div class="wrap-signup-form-btn">
+							<button class="signup-form-btn">Sign Up</button>
+						</div>
+					</div>
+				</form>
+		</div>
+	</div>
+</body>
+</html> <!--Comment-->
+
+
+
